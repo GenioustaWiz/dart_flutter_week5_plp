@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Simple Flutter App',
+      title: 'Introduction To Flutter',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -23,14 +23,14 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Simple Flutter App'),
+        title: Text('Introduction To Flutter'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Welcome to Flutter!',
+              'Welcome to ITF!',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20),
@@ -43,8 +43,8 @@ class MyHomePage extends StatelessWidget {
             SizedBox(height: 20),
             Image.network(
               'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg',
-              width: 200,
-              height: 200,
+              width: 300,
+              height: 300,
               fit: BoxFit.cover,
             ),
           ],
