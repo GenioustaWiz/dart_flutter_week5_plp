@@ -7,7 +7,8 @@ The application fulfills the following requirements:
 Creates an application with a simple user interface that includes:
 
 A title bar with the name of the app
-A centered column containing:
+
+A centered column containing: 
 
 A Text widget displaying a welcome message
 An ElevatedButton widget that prints a message to the console when clicked
